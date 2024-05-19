@@ -1,5 +1,5 @@
 - name: variables
-  hosts:localhost
+  hosts: localhost
   vars:
     name: "Hi I am a variable"
   tasks:
