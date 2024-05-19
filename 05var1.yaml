@@ -1,0 +1,8 @@
+- name: Playbook
+  hosts: localhosts
+  var_files:
+    - vars.yaml
+  tasks:
+  - name: print information
+    ansible.builtin.debug:
+      msg: "Hello {{name}}"
