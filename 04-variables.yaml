@@ -1,8 +1,8 @@
 - name: variables
   hosts: localhost
   vars:
-    gk: "Hi I am a variable"
+    name: "Hi I am a variable"
   tasks:
   - name: print information
-    anisble.builtin.debug:
-      msg: "hello {{gk}}"
+    ansible.builtin.debug:
+      msg: "hello {{name}}"
