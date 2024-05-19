@@ -1,5 +1,5 @@
 - name: Playbook
-  hosts: localhosts
+  hosts: localhost
   vars_files:
     - vars.yaml
   tasks:
