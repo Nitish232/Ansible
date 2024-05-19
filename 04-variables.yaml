@@ -3,6 +3,6 @@
   vars:
     name: "Hi I am a variable"
   tasks:
-  - name: print information
-    anisble.builtin.debug:
-      msg: "hello {{name}}"
+    - name: print information
+      anisble.builtin.debug:
+        msg: "hello {{name}}"
