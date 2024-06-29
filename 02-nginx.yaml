@@ -5,4 +5,4 @@
     - name: install nginx
       ansible.builtin.dnf:
         name: nginx
-        state: present
+        state: latest
