@@ -1,5 +1,5 @@
 - name: varible from files 
-  hosts: localhost
+  hosts: web
   vars_prompt:
     - name: Username
       prompt: please enter your name
