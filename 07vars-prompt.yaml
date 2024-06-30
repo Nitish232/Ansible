@@ -1,6 +1,6 @@
 - name: varible from files 
   hosts: localhost
-  vars_promt:
+  vars_prompt:
     - name: Username
       promt: please enter your name
     - name: Password
